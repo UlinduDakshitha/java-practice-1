@@ -8,4 +8,8 @@ public class Clothes {
     public void setSize(String size) {
         this.size = size;
     }
+    public void showFinalPrice(){
+
+    }
+
 }

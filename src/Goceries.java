@@ -8,4 +8,8 @@ public class Goceries {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    public void showFinalPrice(){
+
+    }
 }
