@@ -19,7 +19,11 @@ public class AllProducts {
             System.out.print("Enter your type");
             String type= sc.next();
 
+switch (type){
 
+    case"Clothes":
+
+}
         }
     }
 
