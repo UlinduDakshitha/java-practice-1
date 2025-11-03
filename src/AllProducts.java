@@ -22,6 +22,14 @@ public class AllProducts {
 switch (type){
 
     case"Clothes":
+        Clothes clothes=new Clothes();
+        clothes.setSize("xl");
+        clothes.setName(name);
+        clothes.setBrand(brand);
+        clothes.setPrice(price);
+
+
+
 
 }
         }

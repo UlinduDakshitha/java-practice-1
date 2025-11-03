@@ -1,4 +1,4 @@
-public class Clothes {
+public class Clothes extends Products{
     private String size;
 
     public String getSize() {

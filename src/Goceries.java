@@ -1,4 +1,4 @@
-public class Goceries {
+public class Goceries extends Eloctnics{
     private double weight;
 
     public double getWeight() {

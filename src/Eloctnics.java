@@ -1,4 +1,4 @@
-public class Eloctnics {
+public class Eloctnics extends Clothes{
     private int warentyYears;
 
     public int getWarentyYears() {
