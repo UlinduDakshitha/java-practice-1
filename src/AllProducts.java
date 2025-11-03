@@ -44,7 +44,16 @@ break;
 
 case"Goceries":
     Goceries goceries=new Goceries();
+goceries.setName(name);
+goceries.setSize("xxl");
+goceries.setBrand(brand);
+goceries.setPrice(price);
+goceries.showFinalPrice();
+    System.out.print("Full price"+(price- goceries.showFinalPrice()*0.05));
+    break;
 
+    case"":
+        System.out.print("not valid");
 }
         }
     }
