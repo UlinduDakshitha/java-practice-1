@@ -31,7 +31,8 @@ public class Products  {
         this.price = price;
     }
 
-    public void showFinalPrice(){
-        System.out.println("finalprice");
+    public double showFinalPrice(){
+
+    return 0;
     }
 }

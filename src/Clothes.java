@@ -8,7 +8,8 @@ public class Clothes extends Products{
     public void setSize(String size) {
         this.size = size;
     }
-    public void showFinalPrice(){
+    public double showFinalPrice(){
+        return getPrice();
 
     }
 

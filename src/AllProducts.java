@@ -14,7 +14,7 @@ public class AllProducts {
             String brand= sc.next();
 
             System.out.print("Enter your price:");
-            Double price= sc.nextDouble();
+            double price= sc.nextDouble();
 
             System.out.print("Enter your type");
             String type= sc.next();
@@ -27,8 +27,9 @@ switch (type){
         clothes.setName(name);
         clothes.setBrand(brand);
         clothes.setPrice(price);
-
-
+        clothes.showFinalPrice();
+        System.out.print("Full price"+(price - clothes.showFinalPrice()*0.1));
+break;
 
 
 }

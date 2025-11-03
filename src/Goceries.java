@@ -9,7 +9,8 @@ public class Goceries extends Eloctnics{
         this.weight = weight;
     }
 
-    public void showFinalPrice(){
+    public double showFinalPrice(){
+        return getPrice();
 
     }
 }

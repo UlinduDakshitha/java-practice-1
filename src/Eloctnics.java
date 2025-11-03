@@ -8,7 +8,8 @@ public class Eloctnics extends Clothes{
     public void setWarentyYears(int warentyYears) {
         this.warentyYears = warentyYears;
     }
-    public void showFinalPrice(){
+    public double showFinalPrice(){
+        return getPrice();
 
     }
 
