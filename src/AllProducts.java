@@ -31,6 +31,19 @@ switch (type){
         System.out.print("Full price"+(price - clothes.showFinalPrice()*0.1));
 break;
 
+    case"Eloctnics":
+        Eloctnics eloctnics=new Eloctnics();
+        eloctnics.setName(name);
+        eloctnics.setSize("l");
+        eloctnics.setBrand(brand);
+        eloctnics.setPrice(price);
+        eloctnics.showFinalPrice();
+        System.out.print("Full price"+(price- eloctnics.showFinalPrice()*0.15));
+break;
+
+
+case"Goceries":
+    Goceries goceries=new Goceries();
 
 }
         }
